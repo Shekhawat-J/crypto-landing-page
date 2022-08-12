@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: Montserrat;
+}
+
+.navbar{
+    display: flex;
+    /* flex: 1; */
+    background-color: #0D0D0D;
+    padding: 15px 15px;
+    justify-content: space-between;
+    height: 8vh;
+}
+
+.brand-img{
+    flex:0.1;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.brand-img img{
+    height: 30px;
+    /* width: 40px; */
+}
+
+.line{
+    /* flex: 0.1; */
+    margin: 0px 20px;
+    border-right: solid 3px #ffffff;
+    /* background-color: aqua; */
+}
+
+.grow-list{
+    flex: 0.7;
+}
+
+.list{
+    display: flex;
+    list-style-type: none;
+    
+}
+
+.list-item{
+    color: #ffffff;
+    margin: 2.5vh 5vh;
+}
+
+.btn{
+    flex: 0.2;
+    /* margin: auto 50px; */
+    margin: auto 0;
+    margin-left: 30px;
+}
+.button-small{
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    background-color: #8D3DAF;
+    color:#ffffff;
+}
+.hero{
+    background-image: url(./assets/bg.png);
+    height: 90vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.hero-heading{
+    font-size: 80px;
+    margin: 0 30vh;
+    padding-top: 10vh;
+    color: #ffffff;
+    text-align: center;
+}
+
+.hero-description{
+    font-size: 25px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.button{
+    margin: 0 80vh;
+    margin-top: 5vh;
+}
+.button-large{
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #8D3DAF;
+    color: #ffffff;
+    
+}
